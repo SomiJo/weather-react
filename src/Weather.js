@@ -87,6 +87,5 @@ export default function Weather() {
         </div>
       </div>
     </div>
-   <p> Open_source code</p>
   );
 }

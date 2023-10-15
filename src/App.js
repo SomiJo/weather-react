@@ -5,7 +5,18 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <div className="content-container">
+        <Weather />
+        <small>
+          <a
+            href="https://github.com/SomiJo/weather-react.git"
+            target="_blank"
+            rel="noreferrer">
+            Open_source code
+          </a>{" "}
+          by Somaye Jodeir
+        </small>
+      </div>
     </div>
   );
 }
