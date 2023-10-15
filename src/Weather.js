@@ -65,9 +65,13 @@ export default function Weather() {
       <div className="row d-flex">
         <div className="col-6">
           <div className="clearfix">
-            <img src={weather.icon} alt={weather.description} />
+            <img
+              src={weather.icon}
+              alt={weather.description}
+              className="weather-icon float-left"
+            />
             <div className="float-left">
-              <strong>Temperature: {Math.round(weather.temperature)}°C</strong>
+              <strong>{Math.round(weather.temperature)}</strong>°C
             </div>
           </div>
         </div>
